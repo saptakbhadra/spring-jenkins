@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringJenkinsApplication {
 
-
+//Adding a comment to initiate a build in pipeline in jenkins
 	@GetMapping("/ping")
 	public String message() {
 		return "Wao!! Application Deployed successfully in SAP Cloud..";
